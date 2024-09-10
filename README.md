@@ -10,7 +10,7 @@
 - ansible.
   
 
-### Descargar e instalar vagrant en windows
+# Descargar e instalar vagrant en windows
 
 - Descargar el instalador: https://developer.hashicorp.com/vagrant/install
 ### Configurar un proyecto Vagrant con Debian 12:
