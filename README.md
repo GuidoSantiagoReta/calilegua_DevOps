@@ -32,7 +32,7 @@ vagrant init debian/bullseye64
 
 ## Modificar el archivo Vagrantfile (opcional):
 
-- Abrir el archivo Vagrantfile en un editor de texto si deseas hacer cambios, como ajustar la cantidad de RAM o procesadores:
+__Abrir el archivo Vagrantfile en un editor de texto si deseas hacer cambios, como ajustar la cantidad de RAM o procesadores:__
 ```
 Vagrant.configure("2") do |config|
   config.vm.box = "debian/bullseye64"
@@ -42,9 +42,9 @@ Vagrant.configure("2") do |config|
   end
 end
 ```
-- Iniciar la máquina virtual:
+__Iniciar la máquina virtual:__
 
-Para descargar la caja de Debian 12 y crear la máquina virtual, ejecutar:
+__Para descargar la caja de Debian 12 y crear la máquina virtual, ejecutar:__
 
 ```
 vagrant up
@@ -53,19 +53,19 @@ __Vagrant descargará la imagen de Debian 12 y la lanzará en VirtualBox.__
 
 - Acceder a la máquina virtual:
 
-- Una vez que la máquina esté en ejecución, puedes acceder a ella con:
+  __Una vez que la máquina esté en ejecución, puedes acceder a ella con:__
   
 ```
 vagrant ssh
 
 ```
 - Finalizar la sesión:
-- Para detener la máquina virtual, usa el siguiente comando:
+  __Para detener la máquina virtual, usa el siguiente comando:__
 
 ```
 vagrant halt
 ```
-Para destruir la máquina virtual si ya no la necesitas:
+__Para destruir la máquina virtual si ya no la necesitas:__
 
 ```
 vagrant destroy
