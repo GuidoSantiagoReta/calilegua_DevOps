@@ -13,6 +13,7 @@
 # Descargar e instalar vagrant en windows
 
 - Descargar el instalador: https://developer.hashicorp.com/vagrant/install
+  
 ### Configurar un proyecto Vagrant con Debian 12:
 
 - Crear una carpeta para el proyecto Vagrant:
@@ -70,3 +71,43 @@ __Para destruir la máquina virtual si ya no la necesitas:__
 ```
 vagrant destroy
 ```
+# Descargar e instalar vagrant en Ubuntu
+
+__Instalación de Vagrant__
+
+```
+sudo apt install vagrant
+
+```
+__Configuración para Debian 12__
+- Crear una carpeta para el proyecto Vagrant:
+- Abrir el terminal.
+- Crear una carpeta para tu proyecto:
+  
+```
+mkdir debian12-vagrant
+cd debian12-vagrant
+
+```
+
+__inicializar el proyecto Vagrant:__
+
+
+```
+vagrant init bento/debian-12   //Bento es una forma sencilla de obtener la imagen de máquina virtual preconfigurada y lista para usar con Vagrant 
+
+```
+
+__Ejecutar la máquina virtual:__
+
+```
+vagrant up
+
+```
+__Conectar a la máquina virtual:__
+
+```
+vagrant ssh
+
+```
+
