@@ -24,12 +24,19 @@
 mkdir debian11-vagrant
 cd debian11-vagrant
 ```
-- Inicializar Vagrant con Debian 11
-
+- Inicializar Vagrant con Debian 11 o con Debian 12
+  
+__Debian 11__
 ```
 vagrant init debian/bullseye64
 ```
-- Esto creará un archivo Vagrantfile que configura una máquina virtual Debian  (nombre clave Bullseye)
+__Debian 12__
+
+```
+ vagrant init debian/bookworm64
+```
+
+- Esto creará un archivo Vagrantfile que configura una máquina virtual Debian  
 
 ## Modificar el archivo Vagrantfile (opcional):
 
