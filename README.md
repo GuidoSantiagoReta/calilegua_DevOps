@@ -4,7 +4,7 @@
 
 ### Herramientas:
 - VirtualBox.
-- debian12.
+- debian.
 - vagrant boxes (para descargar la distro correspondiente).
 - CI / CD ( github actions, gitlab).
 - ansible.
