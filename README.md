@@ -21,10 +21,10 @@
 - Crear una carpeta para tu proyecto:
   
 ```
-mkdir debian12-vagrant
-cd debian12-vagrant
+mkdir debian11-vagrant
+cd debian11-vagrant
 ```
-- Inicializar Vagrant con Debian 12
+- Inicializar Vagrant con Debian 11
 
 ```
 vagrant init debian/bullseye64
@@ -45,12 +45,12 @@ end
 ```
 __Iniciar la máquina virtual:__
 
-__Para descargar la caja de Debian 12 y crear la máquina virtual, ejecutar:__
+__Para descargar la caja de Debian 11 y crear la máquina virtual, ejecutar:__
 
 ```
 vagrant up
 ```
-__Vagrant descargará la imagen de Debian 12 y la lanzará en VirtualBox.__
+__Vagrant descargará la imagen de Debian 11 y la lanzará en VirtualBox.__
 
 - Acceder a la máquina virtual:
 
