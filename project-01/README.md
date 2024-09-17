@@ -183,7 +183,7 @@ docker run -d -p 9000:9000 --name portainer \
   portainer/portainer-ce
 
 ```
-- Una que se encuentra el contenedor de portainer en ejecución podemos ingresar la ip mas el puerto para ingresar a portainer
+- Luego de  que se encuentre el contenedor de portainer en ejecución podemos ingresar la ip mas el puerto para ingresar a portainer
 
 __ejemplo__
 
