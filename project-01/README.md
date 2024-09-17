@@ -192,7 +192,7 @@ __ejemplo:__
 
 ```
 
-__Si se agota el el tiempo de espera de tu instancia de Portainer. Volver a habilitar la instancia de Portainer reiniciando Portainer__
+__Si se agota el el tiempo de espera de tu instancia en Portainer. Volver a habilitarlo reiniciando Portainer__
 
 ```
 docker restart portainer
