@@ -1,6 +1,6 @@
 # Calilegua_DevOps
 
-## Repositorio para alojar las prácticas DevOps del curso de HedySoftware
+## Repositorio para alojar las prácticas DevOps de HedySoftware Calilegua
 
 ### Herramientas:
 - VirtualBox.
