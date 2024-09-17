@@ -13,16 +13,16 @@
 
 ## Resolución en windows:
 
-1. Tener instalado vagrant y virtualbox
-2. inicializar vagrant en un directorio ya creado
+### 1. Tener instalado vagrant y virtualbox
+### 2. inicializar vagrant en un directorio ya creado
 
 ```
 vagrant init debian/bookworm64
 
 ```
-Esto creará un archivo Vagrantfile que configura una máquina virtual Debian 12.
+__Esto creará un archivo Vagrantfile que configura una máquina virtual Debian 12.__
 
-3. Agregar al Vagrantfile la configuración de red pública (red puenteada):
+### 3. Agregar al Vagrantfile la configuración de red pública (red puenteada)
 
 
 ```
@@ -47,14 +47,14 @@ ip a
 
 ```
 
-4. Cambiar nombre a la VM en el Vagrantfile
+### 4. Cambiar nombre a la VM en el Vagrantfile
 
 ```
 # Asignar nombre a la máquina virtual
   config.vm.hostname = "vagrant-debian12"
 
 ```
-5. Asignar 2GB de ram a la VM
+### 5. Asignar 2GB de ram a la VM
 
 ```
    # Asignar 2 GB de RAM (2048 MB) a la máquina virtual
@@ -63,7 +63,7 @@ ip a
     vb.memory = "2048"  
 ```
 
-6. Crear y adjuntar disco en el Vagrantfile después de crear el directorio correspondiente en la VM
+### 6. Crear y adjuntar disco en el Vagrantfile después de crear el directorio correspondiente en la VM
 
 ```
  # Crear y adjuntar disco virtual
@@ -72,7 +72,7 @@ ip a
 
 ```
 
-7. Actualizar los paquetes
+###  7. Actualizar los paquetes
 
 __Actualizar la lista de paquetes__
 
@@ -87,7 +87,7 @@ __Actualizar los paquetes instalados__
 sudo apt upgrade
 
 ```
-8. Instalar Docker desde packages deb ( desde el Vagrantfile)
+### 8. Instalar Docker desde packages deb ( desde el Vagrantfile)
 
 ```
  # automatizar la instalación de Docker 
@@ -116,7 +116,7 @@ SHELL
 end
 
 ```
-9. Automatizar la ejecución de un contenedor Docker con Portainer
+### 9. Automatizar la ejecución de un contenedor Docker con Portainer
 
 __Modificar el Vagrantfile para incluir el contenedor de Portainer__
 
@@ -185,7 +185,7 @@ docker run -d -p 9000:9000 --name portainer \
 ```
 - Una que se encuentra el contenedor de portainer en ejecución podemos ingresar la ip mas el puerto para ingresar a portainer
 
-__ejemplo__
+__ejemplo:__
 
 ```
 192.168.2.50:9000
