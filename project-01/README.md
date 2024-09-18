@@ -14,7 +14,7 @@
 ## Resolución en windows:
 
 ### 1. Tener instalado vagrant y virtualbox
-### 2. inicializar vagrant en un directorio ya creado
+### 2. Inicializar vagrant en un directorio ya creado
 
 ```
 vagrant init debian/bookworm64
@@ -185,7 +185,7 @@ docker run -d -p 9000:9000 --name portainer \
 ```
 - Luego de  que se encuentre el contenedor de portainer en ejecución podemos ingresar la ip mas el puerto para ingresar a portainer
 
-__ejemplo:__
+__Ejemplo:__
 
 ```
 192.168.2.50:9000
